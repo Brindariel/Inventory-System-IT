@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "lib": ["deno.window"],
+    "strict": true,
+    "types": ["npm:hono", "npm:hono/cors", "npm:hono/logger"]
+  },
+  "imports": {
+    "npm:": "https://esm.sh/"
+  }
+}
