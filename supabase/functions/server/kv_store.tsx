@@ -1,3 +1,4 @@
+
 import { createClient } from "jsr:@supabase/supabase-js@2.49.8";
 
 const client = () => createClient(
