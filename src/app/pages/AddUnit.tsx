@@ -60,8 +60,8 @@ export function AddUnit() {
               </Button>
             </Link>
             <div>
-              <h1 className="text-3xl font-bold text-gray-900">Add New Unit</h1>
-              <p className="mt-1 text-sm text-gray-600">Enter the details of the new IT asset</p>
+              <h1 className="text-3xl font-bold text-gray-900">Add Unit</h1>
+              <p className="mt-1 text-sm text-gray-600">Enter the details of the new asset</p>
             </div>
           </div>
         </div>
@@ -177,7 +177,7 @@ export function AddUnit() {
                   {loading ? (
                     <>
                       <div className="h-4 w-4 mr-2 animate-spin rounded-full border-2 border-solid border-current border-r-transparent"></div>
-                      Creating...
+                      Creating... :)
                     </>
                   ) : (
                     <>
